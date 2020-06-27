@@ -38,7 +38,7 @@ sudo apt install steam  lutris vlc -y
 sudo apt install vagrant gnome-boxes virtualbox -y
 
 # DEV ansible, Python and more
-sudo apt install python3-pip git code tmux teams -y 
+sudo apt install python3-pip git code tmux atom -y 
 sudo pip3 install ansible-lint
 
 # collab
