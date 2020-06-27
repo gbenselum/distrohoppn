@@ -7,7 +7,7 @@
 sudo apt purge snapd -y
 sudo apt-get remove docker docker-engine docker.io containerd runc -y
 
-# docker
+# install docker community
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https  ca-certificates curl gnupg-agent software-properties-common -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io    
@@ -20,7 +20,6 @@ sudo add-apt-repository multiverse
 sudo add-apt-repository universe
 
 #Microsfot repo
-#vscode
 sudo apt update
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
