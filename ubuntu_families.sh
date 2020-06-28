@@ -15,6 +15,11 @@ sudo add-apt-repository   "deb [arch=amd64] https://download.docker.com/linux/ub
 sudo apt install docker-ce docker-ce-cli containerd.io -y
 
 
+# sublime text repo
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+
 # add multiverse & universe repos
 sudo add-apt-repository multiverse
 sudo add-apt-repository universe
@@ -37,7 +42,7 @@ sudo apt install steam  lutris vlc -y
 sudo apt install vagrant gnome-boxes virtualbox -y
 
 # DEV ansible, Python and more
-sudo apt install python3-pip git code tmux atom -y 
+sudo apt install python3-pip git code tmux atom  sublime-text -y 
 sudo pip3 install ansible-lint
 
 # collab
