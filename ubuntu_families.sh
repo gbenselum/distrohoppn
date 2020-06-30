@@ -32,7 +32,7 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 
 
 # gnome utils
-sudo apt install gnome-shell-extensions arc-theme gnome-tweak-tool plank gnome-clocks -y
+sudo apt install gnome-shell-extensions pavucontrol arc-theme gnome-tweak-tool plank gnome-clocks -y
 
 # gaming and extras
 sudo add-apt-repository ppa:lutris-team/lutris
