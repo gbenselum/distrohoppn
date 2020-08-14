@@ -7,24 +7,26 @@ gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,max
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 
 # first update!
-sudo dnf update
+sudo dnf update -y
 
 
 # containers
 #sudo dnf install podman buildah skoppeo
 
+# eyecandy
+sudo dnf install screenfetch
 
 # gnome utils
 #sudo dnf install gnome-shell-extensions pavucontrol gnome-tweak-tool 
 
 # media
 # obs studio 
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install obs-studio
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf install obs-studio -y
 
-
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# vlc
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 sudo dnf install vlc
     
 
