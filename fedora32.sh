@@ -45,8 +45,7 @@ sudo dnf install buildah skopeo -y
 
 
 # Vms
-sudo dnf install vagrant  virtualbox -y
+sudo dnf install vagrant -y
 
 #
 sudo dnf install ansible vagrant -y
- #virtualbox 
