@@ -13,6 +13,10 @@ sudo dnf update -y
 # eyecandy
 sudo dnf install screenfetch
 
+# zsh ohmyzh
+sudo dnf install zsh powerline-fonts -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # gnome utils
 sudo dnf install pavucontrol gnome-tweak-tool -y
 
