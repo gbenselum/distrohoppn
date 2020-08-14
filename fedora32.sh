@@ -10,14 +10,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 sudo dnf update -y
 
 
-# containers
-#sudo dnf install podman buildah skoppeo
-
 # eyecandy
 sudo dnf install screenfetch
 
 # gnome utils
-#sudo dnf install gnome-shell-extensions pavucontrol gnome-tweak-tool 
+sudo dnf install pavucontrol gnome-tweak-tool -y
 
 # media
 # obs studio 
@@ -30,7 +27,7 @@ dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-rel
 sudo dnf install vlc
     
 
-
+# it tools
 
 # coding
 # vscodium
@@ -39,8 +36,13 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=gitlab.com_paulcarroty_vsco
 sudo dnf install codium -y
 
 
+# containers
+#sudo dnf install podman buildah skoppeo
+
 
 # Vms
 sudo dnf install vagrant  virtualbox -y
 
-
+#
+sudo dnf install ansible vagrant -y
+ #virtualbox 
