@@ -37,7 +37,7 @@ sudo dnf install codium -y
 
 
 # containers
-#sudo dnf install podman buildah skoppeo
+sudo dnf install buildah skopeo -y
 
 
 # Vms
