@@ -48,4 +48,4 @@ sudo dnf install buildah skopeo -y
 sudo dnf install vagrant -y
 
 #
-sudo dnf install ansible vagrant -y
+sudo dnf install nmap ansible vagrant -y
