@@ -9,7 +9,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 # first update!
 sudo dnf update -y
 # performance
-sudo dnf install tuned
+sudo dnf install tuned cockpit-pcp 
 
 # eyecandy
 sudo dnf install screenfetch
