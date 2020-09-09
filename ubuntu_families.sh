@@ -48,3 +48,5 @@ sudo pip3 install ansible-lint
 # collab
 sudo apt install slack teams -y 
 
+#
+sudo apt install tree screenfetch
