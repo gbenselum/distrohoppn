@@ -15,8 +15,7 @@ sudo dnf update -y
 sudo dnf install tuned cockpit-pcp 
 
 # eyecandy
-sudo dnf install screenfetch
-
+sudo yum install screenfetch redhat-display-fonts redhat-text-fonts
 # zsh ohmyzh
 sudo dnf install zsh powerline-fonts -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
