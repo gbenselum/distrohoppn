@@ -2,13 +2,6 @@
 # first READ! then use. It might wreak havoc.
 # tested on 
 
-#add minimize and maximize, and set to the right
-gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
-gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
-
-# location bar in nautilus (gnome files)
-gsettings set org.gnome.nautilus.preferences always-use-location-entry true
-
 # first update!
 sudo dnf update -y
 # performance
