@@ -5,7 +5,7 @@
 # first update!
 sudo dnf update -y
 # performance
-sudo dnf install tuned cockpit-pcp 
+sudo dnf install tuned cockpit-pcp  -y
 
 # eyecandy
 sudo dnf install screenfetch
