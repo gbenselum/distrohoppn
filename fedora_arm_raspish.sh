@@ -13,8 +13,6 @@ sudo dnf install screenfetch
 # zsh ohmyzh
 sudo dnf install zsh powerline-fonts -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-all pavucontrol gnome-tweak-tool -y
-
 
 
 # containers
