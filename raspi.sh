@@ -1,7 +1,7 @@
 #
 
-sudo apt install nmap cockpit cockpit-docker -y
-sudo apt install ansible -y
+sudo apt install nmap ansible zsh git cockpit cockpit-docker -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # pi hole  
 git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
