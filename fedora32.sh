@@ -1,6 +1,5 @@
 #!/bin/bash
 # first READ! then use. It might wreak havoc.
-# tested on 
 
 #add minimize and maximize, and set to the right
 gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
@@ -12,7 +11,7 @@ gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 # first update!
 sudo dnf update -y
 # performance
-sudo dnf install tuned cockpit-pcp 
+sudo dnf install tuned cockpit cockpit-podman cockpit-pcp -y
 
 # eyecandy
 sudo yum install screenfetch redhat-display-fonts redhat-text-fonts
@@ -45,10 +44,6 @@ sudo dnf install vlc
 
 # containers
 sudo dnf install buildah skopeo -y
-
-
-# Vms
-sudo dnf install vagrant -y
 
 #
 sudo dnf install nmap ansible vagrant -y
